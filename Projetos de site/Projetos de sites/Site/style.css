@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Flames-Regular;
+    src: url('fontes/FlameRegular.otf');
+}
+
+@font-face {
+    font-family: Flames-Sans;
+    src: url('fontes/FlameSans.otf');
+}
+
+body{
+ background-color: #FFFFFF;
+}
+
+:root{
+    --main-color: #FFAA00;
+    --second-color: #FF8732;
+    --third-color: #D62300;
+    --bg-color: #F5EBDC;
+    --fourth-color: #F51E01;
+    --brown-color: #502314;
+
+    --font-regular: Flames-Regular, sans-serif;
+    --font-sans: Flames-Sans, sans-serif;
+}
+
+.link-promo{
+    margin-left: -18px;
+    margin-top: -10px;
+    background-color: var(--bg-color);
+    
+}
+
+.link-promo img{
+    width: 1000px;
+    height: 55px;
+    margin-left: 258px;
+}
+
+.topbar{
+    background-color: var(--bg-color);
+    max-width: 1526px;
+    height: 77px;
+    margin-left: -8px;
+}
+
+.bk-logo{
+    width: 130px;
+    height: 117px;
+    margin-left: 90px;
+}
+
+.menu ul{
+    margin-left: 245px;
+    margin-top: -119px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+    float: left;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+.menu li a{
+    font-family: var(--font-regular);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--brown-color);
+    text-decoration: none;
+}
+
+.topbar button{
+    margin-left: 184px;
+    margin-top: -5px;
+    width: 98px;
+    height: 39px;
+    background-color: var(--third-color);
+    font-family: var(--font-regular);
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.topbar button:hover{
+    color: #f39e93;
+}
+
+.slider img{
+    margin-top: -220px;
+    margin-left: -8px;
+    width: 1518px;
+    height: 720px;
+}
+
+.locate-place{
+    background-color: var(--bg-color);
+    width: 100%;
+    margin-top: -45px;
+}
+
+.locate-place h1{
+    font-family: var(--font-regular);
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--brown-color);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.locate-place h2{
+    font-family: var(--font-regular);
+    font-size: 22px;
+    color: var(--brown-color);
+    text-align: center;
+}
+
+.text-line{
+    font-family: var(--font-regular);
+    font-size: 14px;
+    color: #151522;
+    text-align: center;
+}
+
+.locate-place h3{
+    font-family: var(--font-regular);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--brown-color);
+    text-align: center;
+}
+
+.locate-place input{
+    width: 714px;
+    height: 58px;
+    text-align: center;
+    font-family: var(--font-regular);
+    font-size: 18px;
+    color: #C1B7B3;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    background-image: url(imagens/lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p{
+    font-family: var(--font-regular);
+    font-size: 22px;
+    text-align: center;
+}
+
+.second-btn{
+    margin-left: 612px;
+    margin-top: 9px;
+    width: 298px;
+    height: 51px;
+    background-color: var(--third-color);
+    font-family: var(--font-regular);
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-bottom: 32px;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.second-btn:hover{
+      color: #e97e70;
+}
+.promo-app img{
+    width: 1509px;
+    height: 760px;
+}

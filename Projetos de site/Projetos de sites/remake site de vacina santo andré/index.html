@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento Vacína Santo André</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="imagens/santoandre.png" alt="Logo SA">
+    </header>
+    <main class="all-contain">
+        <form class="form-input" name="formulario">
+            <div class="img-sa">
+                <img src="imagens/santoandre.png" alt=" logo Santo André">
+            </div>
+            <div class="form-text">
+                <h1>Vacina Santo André</h1>
+                <h2>Consulte sua vacinação</h2>
+            </div>
+            <div class="form-action">
+                <input type="number" name="num" id="num-cpf" placeholder="CPF" />
+            </div>
+            <div class="form-action">
+                <input type="date" name="birth" id="birth" />
+            </div>
+            <button type="submit" onclick="consultar()">Consultar</button>
+            <p>Se você ainda não agendou sua vacina clique <a href="#">aqui</a></p>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

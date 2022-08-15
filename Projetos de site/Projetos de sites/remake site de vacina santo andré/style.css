@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: #f8c520;
+    --cor2: #257946;
+    --cor3: #0000ff;
+
+    --fonte-principal: 'Bebas Neue', sans-serif;
+    --fonte-secundaria: 'Righteous', sans-serif;
+    --fonte-action: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: var(--cor3);
+}
+
+header{
+    background-color: #f6f6f6;
+    margin-bottom: 77px;
+
+}
+
+header > img{
+     width: 70px;
+}
+
+.all-contain{
+    max-width: 500px;
+    height: 433px;
+    background-color: #f6f6f6;
+    display: block;
+    margin: auto;
+    border-radius: 15px; 
+}
+
+div > img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: 114px;
+    margin-top: -2px;
+}
+
+form{
+    margin-left: 87px;
+    padding-top: 26px;
+}
+
+.form-text{
+    margin-left: 50px;
+    margin-bottom: 19px;
+}
+
+.form-text > h1{
+    font-family: var(--fonte-principal);
+    font-size: 2em;
+    color: var(--cor2);
+    background-image: linear-gradient(to right, #f8c520, transparent);
+    padding-left: 5px;
+}
+
+.form-text > h2{
+    font-family: var(--fonte-principal);
+    font-size: 2em;
+    color: var(--cor2);
+    background-image: linear-gradient(to right, #f8c520, transparent);
+    padding-left: 5px;
+    margin-left: -18px;
+}
+
+input{
+    width: 320px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+input[type=number]{
+    padding-left: 10px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor2);
+    border-radius: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+        
+    }
+    input[type=number] { 
+       -moz-appearance: textfield;
+       appearance: textfield;
+}
+
+input[type=date]{
+    padding-left: 10px;
+    font-family: var(--fonte-secundaria);
+    border-radius: 15px;
+    color: var(--cor2);
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-family: var(--fonte-action);
+    color: var(--cor2);
+    border-radius: 20px;
+    outline: 2px solid #257946;
+    margin-left: 110px;
+}
+
+p{
+    font-family: var(--fonte-secundaria);
+    font-size: 1em;
+    color: var(--cor2);
+    margin-top: 20px;
+    margin-right: 38px;
+}
+
+p > a{
+    background-color: var(--cor1);
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor2);
+    font-weight: bolder;
+}
