@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #040714;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    background-image: url(../imagens/bg.jfif);
+    background-position: top center;
+    background-size: cover;
+    margin: 100px 50px;
+    top: -29px;
+    left: 402px;
+    width: 53vw;
+    height: 84vh;
+
+}
+header > span{
+    float: right;
+    padding: 16px 8px 9px 8px;
+    margin: 12px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 5px;
+    font-size: 1.1em;
+    width: 90px;
+    height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+ h3{
+    position: absolute;
+    top: 183px;
+    left: 215px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.main-content > img{
+    width: 488px;
+    height: 172px;
+    position: absolute;
+    top: 274px;
+    left: 256px;
+    z-index: 1;
+    transform: translate(-19%, -19%);
+}
+
+.btn-plano{
+    position: absolute;
+    top: 447px;
+    left: 104px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 200;
+    border-radius: 6px;
+    padding: 9px 9px 0px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #6421ff;
+    z-index: 1;
+    width: 623px;
+    height: 56px;
+    text-transform: uppercase;
+
+}
