@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: orange;
+}
+
+header{
+    position: relative;
+    width: 90vw;
+}
+
+header > img{
+    position: absolute;
+    width: 75px;
+    left: 98%;
+}
+
+.container{
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 80%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+
+}
+
+h2{
+    position: absolute;
+    top: 25px;
+    left: 20%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+
+.form{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form > label{
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form > input{
+    position: absolute;
+    top: 10%;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.form > .name-input{
+}
+
+.form > .lastname{
+    position: absolute;
+    left: 48%;
+}
+
+.form > .sobrenome{
+    position: absolute;
+    left: 43%;
+    text-align: center;
+}
+
+.form > .phone-lab{
+    position: absolute;
+    left: 82%;
+}
+
+.form > .telefone{
+    position: absolute;
+    left: 79%;
+}
+
+.form > .address-lab{
+    position: absolute;
+    top: 28%;
+    left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form > .address{
+    position: absolute;
+    top: 34%;
+}
+
+.form > .missao-lab{
+    position: absolute;
+    top: 28%;
+    left: 42%;
+}
+
+.form > .missao{
+    position: absolute;
+    top: 34%;
+    left: 43%;
+}
+
+.form > .pergunta{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+}
+
+.form > .p-c{
+    position: absolute;
+    top: 73%;
+    left: 1%;
+}
+
+.form > .comp-1{
+    position: absolute;
+    top: 65%;
+    left: 8%;
+}
+
+.form > .p-r{
+    position: absolute;
+    top: 73%;
+    left: 28%;
+}
+
+.form > .comp-2{
+    position: absolute;
+    top: 65%;
+    left: 33%;
+}
+
+.form > .s-r{
+    position: absolute;
+    top: 73%;
+    left: 53%;
+}
+
+.form > .comp-3{
+    position: absolute;
+    top: 65%;
+    left: 59%;
+}
+
+.form > .pstdf{
+    position: absolute;
+    top: 72%;
+    left: 76%;
+}
+
+.form > .comp-4{
+    position: absolute;
+    top: 65%;
+    left: 85%;
+}
+
+.form > .negative{
+    position: absolute;
+    top: 97%;
+    left: 40%;
+}
+
+.form > .no{
+    position: absolute;
+    top: 90%;
+    left: 44%;
+}

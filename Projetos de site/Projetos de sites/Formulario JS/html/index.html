@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovens Sarados | inscrição</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img src="../imagens/js-logo.png" alt="top-logo">
+    </header>
+    <main>
+        <div class="container">
+            <div class="content">
+                <h2>Formulario de cadastro Jovens Sarados</h2>
+                <div class="form">
+                    <!----------------------------Nome-------------------------------------------------------->
+                    <label for="name">Nome</label>
+                    <input type="text" name="name-input" placeholder="Digite seu nome!">
+                    <!---------------------------Sobrenome---------------------------------------------------->
+                    <label for="lastname" class="lastname">Sobrenome</label>
+                    <input type="text" class="sobrenome" placeholder="Digite seu sobrenome!">
+                    <!---------------------------Telefone----------------------------------------------------->
+                    <label for="phone" class="phone-lab">Telefone/Celular</label>
+                    <input type="number" class="telefone" data-mask="(00) 0000-0000" data-mask-selectonfocus="true" placeholder="(xx) 9xxxx-xxxx">
+                    <!---------------------------Endereço----------------------------------------------------->
+                    <label for="address" class="address-lab">Endereço</label>
+                    <input type="text" class="address" placeholder="Ex: Av. João Ramalho nº302">
+                    <!---------------------------Missão------------------------------------------------------->
+                    <label for="group" class="missao-lab">A qual missão você pertence?</label>
+                    <input type="text" class="missao" placeholder="Ex: Luzitão, Santo André">
+                    <!---------------------------Compromisso-------------------------------------------------->
+                    <h2 class="pergunta">Você é compromissado com a obra JS?</h2>
+                    <label for="compromisso" class="p-c">1º Compromisso</label>
+                    <input type="radio" name="Primeiro-compromisso" class="comp-1" >
+                    <label for="compromisso" class="p-r">1ª Renovação</label>
+                    <input type="radio" name="renovacao" class="comp-2" >
+                    <label for="compromisso" class="s-r">2ª Renovação</label>
+                    <input type="radio" name="2-renovacao" class="comp-3" >
+                    <label for="compromisso" class="pstdf">Para Sempre(Tau de ferro)</label>
+                    <input type="radio" name="para-sempre" class="comp-4" >
+                    <label for="negative" class="negative">Ainda não</label>
+                    <input type="radio" name="negative" class="no">
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
