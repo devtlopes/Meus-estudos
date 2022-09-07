@@ -1,43 +1,69 @@
-#top-bar{
-   background-color: black;
-   max-width: 100%;
-   min-height: 40px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.menu{
-    position: absolute;
+body{
+    background-color: #154abee8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background: #d3d2d1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: #f9f9f9;
     
 }
 
-.menu ul li{
-    position: relative;
-    top: -5px;
-    left: 580px;
-    display: inline;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    font-weight: bolder;
+.boxes{
+    
 }
 
-.menu li a{
-    padding-right: 10px;
-    text-decoration: none;
+
+.box1{
+    width: 50px;
+    height: 50px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
 }
 
-.menu ul li a:hover{
-    color: white;
+.box1:hover{
+    background: green;
+    border: 1px solid red;
 }
 
-.text1{
-    text-align: center;
-    font-family: sans-serif;
-    color: brown;
-    font-size: 2em;
-    font-weight: bolder;
-    text-transform: uppercase;
+.box2{
+    width: 50px;
+    height: 50px;
+    background: green;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 1s ease;
 }
 
-.decoratedtext{
+.box2:hover{
+    background: blue;
+}
 
+.box3{
+    width: 50px;
+    height: 50px;
+    background: blue;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 1s ease;
+}
+
+.box3:hover{
+    background: red;
 }
